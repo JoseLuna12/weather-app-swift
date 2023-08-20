@@ -18,7 +18,7 @@ class WeatherManager {
     
     var delegate: WeatherManagerDelegate?
     
-    var weatherUrl = "https://api.openweathermap.org/data/2.5/weather?appid=79d25ae0d42a07dfede07dbff8d33fa2&units=metric"
+    var weatherUrl = "https://api.openweathermap.org/data/2.5/weather?appid=<apikey&units=metric"
     
     func requestWeather(_ city: String){
         let url = "\(weatherUrl)&q=\(city)"
